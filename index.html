@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ </head>
+ <body>
+    <div class="main w-full">
+        <nav class="fixed w-full top-0 left-0 px-10 py-3 flex justify-between items-center">
+            <img class=" w-[160px]   mix-blend-lighten filter saturate-150 contrast-125" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="Cyberpunk image">
+         <div class="flex gap-5 items-center ">
+         <a href="#" class="tracking-tight text-white hover:text-blue-600 hover:text-shadow transition-colors duration-300">Games</a>
+         <a href="#" class="tracking-tight text-white hover:text-blue-600 hover:text-shadow transition-colors duration-300">News</a>
+         <a href="#" class="tracking-tight text-white hover:text-blue-600 hover:text-shadow transition-colors duration-300">Community</a>
+         <a href="#" class="tracking-tight text-white hover:text-blue-600 hover:text-shadow transition-colors duration-300">Store</a>
+         </div>
+        </nav>
+        <div class="w-full h-[150vh] overflow-hidden">
+             <img class="absolute w-1/2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-lighten filter saturate-150 contrast-125" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b" alt="Cyberpunk image">
+             <div class="w-[20rem] h-[20rem] absolute rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-600 z-[-1] blur-[90px]"></div>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="w-full h-screen relative bg-[#000]">
+            <div class="w-full h-96 top-0 left-0 -translate-y-1/2 absolute bg-gradient-to-b from-black to-[#000]"></div>
+        </div>
+    </div>
+  <script type="module" src="main.js"></script>
+ </body>
+ </html>
